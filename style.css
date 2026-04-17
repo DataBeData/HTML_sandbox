@@ -1,12 +1,21 @@
 
-
-
 h3{color:rgb(115, 115, 183); font-weight: bold; text-decoration: underline; text-underline-offset: 6px;}
 
 p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(30, 41, 45) ;}
 
 body{background-color: lightcyan ;}
 
-#skip {color: steelblue; background-color: rgb(128, 209, 189); display: inline-block; text-align: center; padding: 15px 25px;}
+#skip {color: steelblue; background-color: rgb(128, 209, 189); display: inline-block; text-align: center; padding: 15px 25px; border-radius: 66%;}
 
-a:hover, #skip{ color: orangered;}
+#skip:hover{color: whitesmoke}
+
+
+nav{display: inline-block; 
+    padding: 10px 20px; 
+    margin: 10px;
+    background-color: goldenrod;
+    color: antiquewhite;
+    }
+nav:hover{ background-color: dodgerblue;}
+a:hover{color:whitesmoke}
+a{text-decoration: none;}
