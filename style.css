@@ -5,10 +5,9 @@ p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:
 
 body{background-color: lightcyan ;}
 
-#skip {color: steelblue; background-color: rgb(128, 209, 189); display: inline-block; text-align: center; padding: 15px 25px; border-radius: 66%;}
+#skip{color: steelblue; background-color: rgb(128, 209, 189); display: inline-block; text-align: center; padding: 15px 25px; border-radius: 66%;}
 
 #skip:hover{color: whitesmoke}
-
 
 nav{display: inline-block; 
     padding: 10px 20px; 
@@ -17,7 +16,29 @@ nav{display: inline-block;
     color: antiquewhite;
     }
 nav:hover{ background-color: dodgerblue;}
+
 a:hover{color:whitesmoke}
+
 a{text-decoration: none;}
 
 div{background-color: rgb(14, 13, 13);}
+
+.div-cube{background-color: rgb(255, 111, 0); 
+    color: rgb(35, 29, 219);
+    width: 5em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.div-cube:hover{background-color: blue;}
+.div-cube:hover p{color: whitesmoke}
+
+.container-cube{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightcyan;
+}
