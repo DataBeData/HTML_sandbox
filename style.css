@@ -42,3 +42,12 @@ div{background-color: rgb(14, 13, 13);}
     justify-content: center;
     background-color: lightcyan;
 }
+
+th{font-style:bold;}
+
+table, th, td {border: 1px solid black;
+border-collapse: collapse;
+padding: 1.75em;}
+
+table{margin: auto;}
+
