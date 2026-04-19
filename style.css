@@ -55,3 +55,22 @@ padding: 1.75em;}
 table{margin: auto;}
 
 .lijst{display:inline;}
+
+
+.item{background-color: blanchedalmond;
+        width: 100px; 
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+}
+
+.container{ background-color: lightcyan;
+            display:flex; 
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+}
