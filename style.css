@@ -12,10 +12,10 @@ body{background-color: lightcyan ;}
 nav{display: inline-block; 
     padding: 10px 20px; 
     margin: 10px;
-    background-color: goldenrod;
+    background-color: rgb(111, 173, 212);;
     color: antiquewhite;
     }
-nav:hover{ background-color: dodgerblue;}
+nav:hover{ background-color: rgb(87, 87, 173);}
 
 a:hover{color:whitesmoke}
 
@@ -57,13 +57,21 @@ table{margin: auto;}
 .lijst{display:inline;}
 
 
-.item{background-color: blanchedalmond;
+.item{background-color: rgb(111, 173, 212);
         width: 100px; 
         height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: bolder;
+        font-size: larger;
+        border-radius: 25% ;
+        
+}
+
+.item:hover{ background-color: rgb(87, 87, 173);
+    color: aliceblue;
 
 }
 
