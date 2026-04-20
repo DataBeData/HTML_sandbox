@@ -89,3 +89,13 @@ table{margin: auto;}
             flex-wrap: wrap;
 
 }
+
+.table-container{
+    background-color: lightcyan;
+    display:flex;
+       
+}
+
+tr:nth-child(even) th, tr:nth-child(even) td{
+    background-color: rgb(131, 208, 130);
+}
