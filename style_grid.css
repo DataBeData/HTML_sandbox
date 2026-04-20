@@ -2,12 +2,20 @@
 
 .nav-beam{
     display:flex;
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 15px;
     background-color: rgb(158, 165, 165);
     background: radial-gradient(circle, rgb(158, 165, 165) 0%,  
                                     rgb(102, 106, 106) 50%, 
                                     rgb(72, 75, 75) 100%);
     justify-content: center;
+    position:sticky;
+    top:0;
+    z-index: 100;
+    
+    
 }
 
 
@@ -56,3 +64,26 @@ tr:nth-child(odd) td {
     background-color: azure;
     color: rgb(22, 23, 22);
 }
+
+.main-container-box{
+
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 1em;
+    justify-content: space-evenly;
+    
+
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    color:rgb(83, 62, 66);
+    font-family: fantasy;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
